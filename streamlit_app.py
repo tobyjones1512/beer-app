@@ -1,6 +1,13 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.title("🍺 Beer App")
+
+st.header(
+    "Add Pub"
 )
+
+pubName = st.text_input("Pub Name")
+
+pubStreet = st.text_input("Pub Address Line 1 (Street)")
+
+pubPostcode = st.text_input("Pub Postcode")
